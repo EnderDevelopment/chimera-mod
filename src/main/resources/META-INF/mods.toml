@@ -1,0 +1,23 @@
+[[mods]]
+modId="quimera"
+version="${file.jarVersion}"
+displayName="Quimera Mod"
+credits="Created using Minecraft Forge"
+authors="Your Name"
+description='''
+Adds chimera creatures to the game, which can be created by dropping mobs on a ritual table.
+'''
+
+[[dependencies.quimera]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.quimera]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"

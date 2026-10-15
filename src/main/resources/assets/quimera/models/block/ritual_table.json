@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "quimera:block/ritual_table",
+        "down": "quimera:block/ritual_table",
+        "up": "quimera:block/ritual_table_top",
+        "north": "quimera:block/ritual_table_side",
+        "south": "quimera:block/ritual_table_side",
+        "west": "quimera:block/ritual_table_side",
+        "east": "quimera:block/ritual_table_side"
+    }
+}

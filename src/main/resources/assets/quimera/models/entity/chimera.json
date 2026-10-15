@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:entity/creature",
+    "textures": {
+        "0": "quimera:textures/entity/chimera.png"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "quimera",
+    "version": "1.0",
+    "name": "Quimera Mod",
+    "description": "Adds chimera creatures to the game, which can be created by dropping mobs on a ritual table.",
+    "authors": ["Your Name"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.example.quimera.QuimeraMod"
+        ]
+    },
+    "mixins": [
+        "quimera.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "~1.18.2"
+    }
+}
